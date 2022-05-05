@@ -4,20 +4,35 @@
       "title": "Angular",
       "description": "A powerful Javascript framework for building single page apps. Angular is open source, and maintained by Google.",
       "committee": "CODEX",
-      "img": "assets/img/CodeX_logo.jpg"      
+      "img": "assets/img/CodeX_logo.jpg",
+      "speaker_id": "1",
+      "from_date": "2018-01-01",
+      "from_time": "10:00",
+      "to_date": "2018-01-02",
+      "to_time": "11:00"
     },
     {
       "id": "2",
       "title": "React",
       "description": "A JavaScript library for building user interfaces. React can be used as a base in the development of single page or mobile applications.",
       "committee": "IEEE",
-      "img": "assets/img/IEEE_logo.jpg"
+      "img": "assets/img/IEEE_logo.jpg",
+      "speaker_id": "2",
+      "from_date": "2018-01-01",
+      "from_time": "11:00",
+      "to_date": "2018-01-01",
+      "to_time": "12:00"
     },
     {
       "id": "3",
       "title": "Vue",
       "description": "A progressive Javascript framework for building user interfaces. Vue can be used as a base in the development of single page or mobile applications.",
       "committee": "CODEX",
-      "img": "assets/img/CodeX_logo.jpg"
+      "img": "assets/img/CodeX_logo.jpg",
+      "speaker_id": "3",
+      "from_date": "2018-01-01",
+      "from_time": "12:00",
+      "to_date": "2018-01-01",
+      "to_time": "13:00"
     }
 ]

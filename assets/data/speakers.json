@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "name": "Richard Thompson",
+        "rating": "4.5" 
+    },
+    {
+        "id": "2",
+        "name": "John Smith",
+        "rating": "4.0"
+    },
+    {
+        "id": "3",
+        "name": "Jane Doe",
+        "rating": "3.5"
+    }
+]
