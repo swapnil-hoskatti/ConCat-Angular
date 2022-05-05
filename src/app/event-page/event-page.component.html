@@ -1,4 +1,11 @@
-<h1>{{page_title}}</h1>
-<div class="container-fluid">
-    
+<h1>{{page_data.title}}</h1>
+<div class="container">
+    <h4>{{page_data.description}}</h4>
+    <h5>No. of Days : {{date_duration}}</h5>
+    <div *ngIf="date_duration == 1;then date_content else other_date_content">here is ignored</div>
+    <ng-template #date_content><h5>Date : {{to_date | date:'fullDate' }}</h5></ng-template>
+    <ng-template #other_date_content><h5>Date : From {{from_date | date:'fullDate' }} to {{to_date | date:'fullDate' }}</h5></ng-template>
+    <h5>Timings : {{start_time}} to {{end_time}}</h5>
+    <h5>Duration : {{time}}</h5>
+    <h5>Speaker : {{speaker_data.name}} (Rating: {{speaker_data.rating}})</h5>
 </div>

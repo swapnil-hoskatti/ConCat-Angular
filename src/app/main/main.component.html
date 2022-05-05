@@ -6,9 +6,9 @@
         <img src="{{element.img}}" class="card-img-top" alt="{{element.committee}}">
         <div class="card-body" >
           <h5 class="card-title">{{element.title}}</h5>
-          <p class="card-text">{{element.description}}</p>
+          <p class="card-text">{{element.description | slice:0:45 }}...</p>
           <p class ="text-center">
-            <button type="button" class="btn btn-primary" [routerLink]="['/event-page']" [queryParams]="{title:element.title}">More Information</button>
+            <button type="button" class="btn btn-primary" [routerLink]="['/event-page']" [queryParams]="{id:element.id}">More Information</button>
           </p>
         </div>
       </div>
