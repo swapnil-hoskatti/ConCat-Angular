@@ -1,0 +1,11 @@
+# Angular Directory
+.angular
+
+# Visual Studio Code Directory
+.vscode
+
+# Dist Directory
+dist/
+
+# Node Modules Directory
+node_modules/
